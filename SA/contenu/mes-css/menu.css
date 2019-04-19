@@ -1,0 +1,57 @@
+header{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav{
+    
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    z-index: 10000;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    padding-right: 45px;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+    padding-top: 15px;
+}
+
+nav ul li a{
+    display: inline-block;
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 15px 0px 15px;
+}
+
+.logo{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(88, 89, 90, 0.15);
+    text-decoration: none;
+    border-top: #58595A 4px solid;
+    border-bottom: #58595A 4px solid;
+
+}
+
+nav.black{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+nav ul li a.vert{
+    color:black;
+}
+
